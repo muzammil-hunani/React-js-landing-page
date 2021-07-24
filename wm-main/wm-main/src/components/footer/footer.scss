@@ -1,0 +1,114 @@
+/* Footer Start */
+
+footer {
+    padding-top: 72px;
+}
+footer .logo-about p {
+    color: #60646f;
+    padding-top: 18px;
+}
+footer .logo-about .fo-btn {
+    display: flex;
+}
+footer .logo-about .fo-btn .img-space {
+    margin-left: 8px;
+}
+footer .logo-about .fo-btn {
+    display: flex;
+    margin-top: 20px;
+}
+footer .logo-about .social-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+footer .logo-about .social-icon a {
+    width: 32px;
+    height: 24px;
+    margin: 7px;
+}
+footer .logo-about .social-icon a:first-child {
+    margin-left: 0;
+}
+footer .menu-list h3 {
+    color: #252935;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .menu-list ul {
+    list-style: none;
+    margin-bottom: 0;
+    position: relative;
+}
+footer .menu-list ul li {
+    padding: 5px 0;
+}
+footer .menu-list ul li:last-child {
+    padding-bottom: 0;
+}
+footer .menu-list ul li a {
+    color: #60646f;
+    text-decoration: none;
+}
+footer .menu-list .last-col svg {
+    padding-bottom: 8px;
+    padding-right: 24px;
+}
+footer .menu-list .last-col {
+    padding: 0;
+}
+footer .menu-list .last-col .last-col-inner {
+    background: #252935;
+    padding: 24px;
+    border-radius: 12px;
+    position: relative;
+}
+footer .menu-list .last-col svg path {
+    color: #fff;
+}
+footer .menu-list .last-col .last-col-inner ul li a {
+    color: #fff;
+}
+footer .menu-list .last-col .last-col-inner:before {
+    display: block;
+    content: "";
+    background: url(../../images/bussiness-img.png) no-repeat;
+    width: 69px;
+    height: 37px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+.footer-copyright {
+    border-top: 1px solid #e6e5e5;
+    margin-top: 48px;
+    padding: 32px 0;
+}
+.footer-copyright p {
+    margin-bottom: 0;
+    color: #60646f;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media(max-width: 1199.98px){
+  footer .logo-about {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  footer .logo-about .fo-btn, footer .logo-about .social-icon {
+      justify-content: center;
+  }
+  footer .menu-list .m-space {
+      margin-bottom: 50px;
+  }
+}
+@media(max-width: 1023.98px){
+  .footer-copyright {
+    margin-top: 10px;
+    padding: 22px 0;
+  }
+}
+
+
+/* Footer Start */

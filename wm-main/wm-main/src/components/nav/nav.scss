@@ -1,0 +1,176 @@
+
+/*----------------------------------------------------------------------------------------*/
+/*Header Start*/
+/*----------------------------------------------------------------------------------------*/
+
+header .container {
+    padding-top: 16px;
+    padding-bottom: 6px;
+}
+header .col-spacing .col-xl-1, header .col-spacing .col-xl-7, header .col-spacing .col-xl-4 {
+    padding: 0;
+}
+header .header-logo svg {
+    width: 50px;
+}
+header .logo-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .input-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+header .input-set {
+    display: flex;
+    flex-wrap: wrap;
+    background: #eeeeee;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+header .input-set form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+header .input-set form input {
+    padding: 0 10px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    text-overflow: ellipsis;
+}
+header .input-set form.location-form:before {
+    display: block;
+    content: "";
+    border-right: 0.0625rem solid rgb(204, 204, 204);
+    height: calc(100% - 4px);
+}
+header .input-set form.location-form svg {
+    margin-left: 10px;
+}
+header .input-set form input::placeholder {
+    color: #a6a6a6;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+header .menu-sec ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+header .menu-sec ul > li + li {
+    margin-left: 22px;
+    font-size: 14px;
+}
+header .menu-sec {
+    padding-top: 5px;
+}
+header .menu-sec ul li a {
+    font-size: 14px;
+    color: #252935;
+    text-decoration: none;
+}
+header .menu-sec ul li a:hover {
+    color: #00a8a3;
+}
+header .menu-sec ul li a.deal {
+    position: relative;
+}
+header .menu-sec ul li a.deal:before {
+    content: "NEW";
+    position: absolute;
+    color: rgb(217, 58, 75);
+    font-size: 8px;
+    line-height: 1.15;
+    font-weight: 700;
+    right: -16px;
+    top: -2px;
+}
+header .account-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+header .account-icon .m-left {
+    margin-left: 14px;
+}   
+header .account-icon .account a {
+    font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 700;
+    text-decoration: none;
+}
+header .account-icon .account a.sing-up {
+    background: #00a8a3;
+    color: #fff;
+    padding: 6px 19px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+header .account-icon .account a.sing-up:hover {
+    background: #007572;
+}
+header button.toggle {
+    display: none;
+}
+/*----------------------------------------------------------------------------------------*/
+/*Header End*/
+/*----------------------------------------------------------------------------------------*/
+
+
+@media(max-width: 1023.98px){
+header .logo-sec {
+    max-width: 100%;
+    flex: none;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+header .header-search {
+    max-width: 100%;
+    flex: none;
+}
+header .account-icon .account {
+    display: none;
+}
+header button.toggle {
+    display: block;
+    outline: none;
+}
+header .logo-sec button.toggle {
+    width: 33.33%;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+header .logo-sec .header-logo {
+    width: 33.33%;
+    text-align: center;
+}
+header .logo-sec .account-icon {
+    width: 33.33%;
+} 
+header .logo-sec button.toggle svg {
+    max-width: 18px;
+}
+}
+
+@media(max-width: 1023.98px){
+    header .menu-sec ul li a {
+        font-weight: 700;
+        color: #666666;
+    }  
+}
+@media(max-width: 650.98px){
+    header .menu-sec ul {
+        overflow: auto;
+    }
+    header .menu-sec ul::-webkit-scrollbar {
+        display: none;
+    } 
+}

@@ -1,0 +1,782 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: circular, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*Home Page Start*/
+/*----------------------------------------------------------------------------------------*/
+
+/* Hero Section Start */
+
+section.hero-sec .content-box ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.hero-sec .container-fluid {
+    background: url(../../images/signup-hero-desktop.jpg);
+    padding: 45px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.hero-sec .content-box {
+    text-align: center;
+    color: #fff;
+}
+section.hero-sec .content-box h2 {
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+section.hero-sec .content-box p {
+    font-size: 20px;
+}
+section.hero-sec .content-box ul li {
+    margin-left: 20px;
+    font-weight: 600;
+}
+section.hero-sec .content-box ul li svg {
+    margin-right: 12px;
+}
+section.hero-sec .content-box form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+}
+section.hero-sec .content-box form input {
+    width: 85%;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+section.hero-sec .content-box form button {
+    width: 15%;
+    background: #00a8a3;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+section.hero-sec .content-box form button:hover {
+    background: #007572;
+}
+section.hero-sec .content-box form .consent {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-right: 20px;
+}
+section.hero-sec .content-box form .consent input {
+    width: unset;
+    margin-right: 15px;
+}
+section.hero-sec .content-box form .consent p.consent-text {
+    font-size: 12px;
+    color: #a5a9b1;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+section.hero-sec .content-box form .consent p.consent-text a {
+    color: #a5a9b1;
+    font-weight: 700;
+}
+section.news-sec .post-content h3 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 32px;
+}
+section.news-sec .post-content h5 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #00a8a3;
+}
+section.news-sec .post-content p {
+    line-height: 20px;
+    color: #60646f;
+}
+section.news-sec .post-content .text-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.news-sec .post-content .text-set .date-author {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+section.news-sec .post-content .text-set .date-author a {
+    padding-left: 15px;
+    color: #60646f;
+    text-decoration: none;
+}
+
+/* Hero Section End */
+
+/* Find Your Strain Start */
+
+section.find-strain {
+    padding: 56px 0;
+}
+section.find-strain .bg-img {
+    background: url(../../images/explore-strains-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.find-strain .bg-img h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+section.find-strain .bg-img p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+}
+section.find-strain .bg-img a {
+    background: #fff;
+    color: #60646f;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    display: inline-block;
+}
+section.find-strain .bg-img a:hover {
+    color: #252935;
+}
+section.find-strain .bg-img .find-class {
+    padding: 32px 0;
+}
+section.find-strain .feel-content {
+    padding-left: 24px;
+}
+section.find-strain .feel-content h3 {
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+section.find-strain .feel-content p {
+    font-size: 14px;
+    color: #333;
+}
+.all-icon ul {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-icon ul li {
+    width: 14.28%;
+}
+.all-icon ul li h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252935;
+    margin-top: 8px;
+}
+.all-icon {
+    margin-top: 20px;
+}
+.all-icon ul li img {
+    margin-top: 5px;
+}
+/* Find Your Strain End */
+
+/* Best Strains Start */
+
+section.best-strains .best-inner h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252935;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+section.best-strains .best-inner p {
+    font-size: 14px;
+    color: #60646f;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+section.best-strains .best-inner img {
+    width: 100%;
+    border-radius: 4px;
+}
+section.best-strains h2.best-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+section.best-strains .cannabis button.slick-arrow {
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    box-shadow: 0 0 6px 2px #cacaca;
+    border-radius: 50%;
+    z-index: 9;
+    background: #fff;
+}
+section.best-strains .cannabis button.slick-arrow:before {
+    content: "";
+    opacity: 1;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    background: url(../../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+section.best-strains .cannabis button.slick-next:before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+section.best-strains .cannabis button.slick-prev {
+    left: -10px;
+}
+section.best-strains .cannabis button.slick-next {
+    right: -10px;
+}
+section.best-strains .container-fluid {
+    padding-bottom: 56px;
+}
+section.best-strains hr.line {
+    margin: 0;
+    height: 8px;
+    border: none;
+    background: #f2f3f4;
+}
+
+/* Best Strains End */
+
+/* Latest News Start */
+
+section.news-sec {
+    padding: 56px 0;
+}
+section.news-sec h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 64px;
+}
+section.news-sec .post-img img {
+    width: 100%;
+    border-radius: 4px;
+}
+section.news-sec .post-content .row {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #f2f3f4;
+}
+section.news-sec .post-content .text-set {
+    padding-right: 60px;
+}
+section.news-sec .view-news {
+    text-align: center;
+}
+section.news-sec .view-news a.view-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 4px;
+    border: 1px solid #a5a9b1;
+    color: #60646f;
+    padding: 11px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+section.news-sec .view-news a.view-btn:hover {
+    color: #252935;
+}
+section.stay-informed .container-fluid {
+    background: #252935;
+    padding: 24px 0;
+}
+
+/* Latest News End */
+
+/* Stay Informed Start */
+
+section.stay-informed .stay-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+section.stay-informed .stay-content p {
+    color: #fff;
+}
+section.stay-informed .icon > * + * {
+    margin-left: 12px;
+}
+.stay-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stay-form form input {
+    width: 80%;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #252935;
+    outline: none;
+}
+.stay-form form button {
+    width: calc(20% - 10px);
+    border: none;
+    background: #00a8a3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.stay-form form .consent-box {
+    display: flex;
+    align-items: center;
+}
+.stay-form form .consent-box input {
+    width: unset;
+}
+.stay-form form .consent-box p.consent-text {
+    color: #a5a9b1;
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    padding-right: 15px;
+}
+.stay-form form .consent-box p.consent-text a {
+    color: #a5a9b1;
+    font-weight: 700;
+}
+.stay-form form .consent-box {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.stay-form form button:hover {
+    background: #007572;
+}
+
+/* Stay Informed End */
+
+/* Regions Section Start */
+
+section.regions-sec {
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+section.regions-sec h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+section.regions-sec .list-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.regions-sec .list-menu ul li {
+    width: 20%;
+    padding: 8px 0;
+}
+section.regions-sec .list-menu ul li:hover a {
+    color: #252935;
+}
+section.regions-sec .list-menu ul li a {
+    font-size: 18px;
+    color: #60646f;
+    line-height: 1;
+    text-decoration: none;
+}
+
+/* Regions Section End */
+
+/* Plugged Section Start */
+
+section.plugged-sec {
+    background: #006763;
+    margin-top: 68px;
+}
+.plugged-sec .gatsby-image-wrapper-constrained {
+    overflow: visible;
+    max-width: 319px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: -60px;
+    display: block;
+}
+section.plugged-sec .plugg-img {
+    text-align: right;
+}
+section.plugged-sec .plugg-img img {
+    padding-right: 20px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.26) 8px 4px 19px);
+    height: auto;
+}
+section.plugged-sec .plugg-content h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+}
+section.plugged-sec .plugg-content .plugg-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.plugged-sec .plugg-content .plugg-btn a {
+    color: #006763;
+    background: #fff;
+    font-weight: 700;
+    padding: 12px 19px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 132px;
+}
+section.plugged-sec .plugg-content .plugg-btn a:hover {
+    color: #00a8a3;
+}
+section.plugged-sec .plugg-content .plugg-btn a.android-btn {
+    margin-left: 12px;
+}
+section.plugged-sec .plugg-content .plugg-btn a svg {
+    margin-right: 12px;
+}
+
+/* Plugged Section End */
+
+/*----------------------------------------------------------------------------------------*/
+/*Home Page End*/
+/*----------------------------------------------------------------------------------------*/
+
+.side-panel .side-panel-inner {
+    display: none;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*Responsive Start*/
+/*----------------------------------------------------------------------------------------*/
+
+@media(min-width: 1220.98px){
+.container {
+    max-width: 1280px;
+}
+}
+
+@media(max-width: 1199.98px){
+.container-fluid {
+    padding: 0 15px;
+}    
+section.find-strain .bg-img .find-class {
+    padding: 0;
+}
+section.find-strain .bg-img {
+    background: url(../../images/explore-strains-bg-wide.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.find-strain .feel-content h3, section.find-strain .feel-content p {
+    text-align: center;
+} 
+section.find-strain .feel-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+}
+section.plugged-sec .plugg-content h2{
+    margin-top: 20px;
+}
+.all-icon ul li{
+    text-align: center;
+}
+}
+
+@media(min-width: 1024.98px){
+.container {
+    max-width: 100%;
+}
+}
+
+@media(max-width: 1023.98px){
+.side-panel .side-panel-inner {
+    display: block;
+}
+.side-panel-inner .top-btn a {
+    font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 700;
+    text-decoration: none;
+}
+.side-panel-inner .top-btn a.sign-up {
+    background: #00a8a3;
+    color: #fff;
+    padding: 6px 19px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.side-panel-inner .top-btn a.sign-up:hover {
+    background: #007572;
+}
+.side-panel-inner {
+    position: fixed;
+    width: 280px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow: auto;
+    padding: 46px 24px;
+    z-index: 9;
+    transform: translateX(-280px);
+    transition: all 0.5s;
+}
+.side-panel.active .side-panel-inner {
+    transform: translateX(0);
+}
+.side-panel-inner .top-btn {
+    margin-bottom: 25px;
+}
+.side-panel-inner a.side-panel-menu {
+    display: block;
+    padding: 8px 0;
+    color: #252935;
+    text-decoration: none;
+}
+.side-panel-inner hr.panel-line {
+    margin: 12px 0;
+}
+.panel-overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+body.side-menu-active .panel-overlay {
+    display: block;
+}
+body.side-menu-active .main-content {
+    transform: translateX(280px);
+}
+body .main-content {
+    transform: translateX(0);
+    transition: all 0.5s;
+}
+body.side-menu-active {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.side-panel-inner .deal {
+    position: relative;
+}
+.side-panel-inner .deal:after {
+    background: #d93a4b1a;
+    border-radius: 10px;
+    content: "New";
+    color: #d93a4b;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 12px;
+    margin-left: 8px;
+}
+.container {
+    max-width: 100%;
+}  
+}
+
+@media(max-width: 991.98px){
+section.stay-informed .stay-content {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.stay-form form {
+    max-width: 70%;
+    margin: 0 auto;
+}
+section.regions-sec .list-menu ul li {
+    width: 33.33%;
+}
+section.hero-sec .content-box form {
+    max-width: 80%;
+}
+section.hero-sec .content-box h2 {
+    font-size: 45px;
+}
+.plugged-sec .gatsby-image-wrapper-constrained{
+    margin-top: -30px;
+}
+}
+
+@media(max-width: 767.98px){
+section.news-sec .post-content .row {
+    flex-direction: column-reverse;
+}
+section.news-sec h2 {
+    margin-bottom: 35px;
+}
+section.news-sec .post-content .text-set {
+    padding-top: 25px;
+}
+section.plugged-sec .row {
+    flex-direction: column-reverse;
+}
+section.plugged-sec .plugg-img {
+    text-align: center;
+}
+section.plugged-sec .plugg-content {
+    text-align: center;
+}
+section.plugged-sec .plugg-content .plugg-btn {
+    justify-content: center;
+} 
+section.plugged-sec {
+    margin-top: 20px;
+}   
+section.hero-sec .content-box ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.plugged-sec .gatsby-image-wrapper-constrained {
+    margin: 50px auto 0;
+}
+section.news-sec .post-content .text-set {
+    padding-right: 0;
+}
+
+}
+
+@media(max-width: 650.98px){
+section.hero-sec .content-box h2 {
+    font-size: 42px;
+}
+section.hero-sec .content-box p {
+    font-size: 18px;
+}
+section.hero-sec .content-box form {
+    max-width: 90%;
+}
+section.hero-sec .content-box form input {
+    width: 80%;
+}
+section.hero-sec .content-box form button {
+    width: 20%;
+}
+.all-icon ul li {
+    width: 20%;
+}   
+.stay-form form {
+    max-width: 100%;
+}
+}
+
+@media(max-width: 475.98px){
+section.hero-sec .content-box h2 {
+    font-size: 38px;
+}
+section.hero-sec .content-box ul {
+    justify-content: flex-start;
+}
+section.hero-sec .content-box form {
+    max-width: 100%;
+}
+section.hero-sec .content-box form input {
+    width: 70%;
+}
+section.hero-sec .content-box form button {
+    width: 30%;
+}
+.all-icon ul li {
+    width: 25%;
+    text-align: center;
+}
+section.news-sec .post-content h3 {
+    font-size: 24px;
+} 
+section.regions-sec .list-menu ul li {
+    width: 50%;
+}
+.stay-form form input {
+    width: 70%;      
+}
+.stay-form form button {
+    width: calc(30% - 10px);
+}
+}
+
+@media(max-width: 375.98px){
+section.plugged-sec .plugg-img img {
+    width: 100%;
+    padding-right: 0;
+}  
+section.plugged-sec .plugg-content .plugg-btn a.android-btn {
+    margin-left: 0;
+    margin-top: 12px;
+}
+section.regions-sec .container {
+    padding: 0;
+}
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*Responsive End*/
+/*----------------------------------------------------------------------------------------*/
+
+

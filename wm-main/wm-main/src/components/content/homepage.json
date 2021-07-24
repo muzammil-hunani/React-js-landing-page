@@ -1,0 +1,42 @@
+{
+  "heroContent": {
+    "heroHeading": "Results Obsessed Conversion Rate Optimization",
+    "heroSubheading": "We help growth companies make traffic convert by running lots of big swing A/B tests on their site. Full service. Performance pricing.",
+    "imageName": "tablet_hero_section.png"
+  },
+  "whatWeDo": {
+    "sectionHeading": "What We Do",
+    "sectionSubheading": "Fast cycles of discovery, design and A/B testing - create a consistent stream of wins.",
+    "sectionList": [
+      {
+        "listItemheading": "Discovery",
+        "listItemText": "Uncover issues that stop people converting. Predictive analytics. Custom research. Competitor reconaissance."
+      },
+      {
+        "listItemheading": "Design",
+        "listItemText": "Design new pages that take big swing and tackle conversion issues. Beautiful. On brand. High converting."
+      },
+      {
+        "listItemheading": "A/B Test",
+        "listItemText": "Measure the impact with A/B testing. Test development. QA. Data analysis."
+      }
+    ]
+  },
+  "caseStudies": [
+    {
+      "caseHeading": "Increase Conversions",
+      "caseDescription": "Discover the key areas to get more conversions. Test results database.",
+      "caseImage": "increase_conversions.png"
+    },
+    {
+      "caseHeading": "Improve Customer Understanding",
+      "caseDescription": "Discover the key areas to get more conversions. Test results database.",
+      "caseImage": "customer__understanding.png"
+    },
+    {
+      "caseHeading": "Decrease CAC",
+      "caseDescription": "Discover the key areas to get more conversions. Test results database.",
+      "caseImage": "decrease_cac.png"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+@font-face {
+  font-family: circular;
+  src: url(../fonts/circular-regular.woff2);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: circular;
+  src: url(../fonts/circular-bold.woff2);
+  font-weight: 700;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: circular, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background: #fe3346;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border: 1px solid #fe3346;
+  background: #ffffff;
+  color: #fe3346;
+}
+
+/*Heading*/
+.section-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  color: #333333;
+}
+
+@media(max-width: 991px) {
+  .section-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media(max-width: 767px) {
+  .section-heading {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+
+.cta-big-filled {
+  background: #FE3346;
+  border-radius: 6px;
+  padding: 20px 40px;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  color: #FFFFFF;
+}
+
+.cta-big-outlined {
+  background: transparent;
+  border: 1px solid #FE3346;
+  border-radius: 6px;
+  padding: 20px 40px;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.cta-small-filled .cta-small-filled {
+  background: #FE3346;
+  border-radius: 6px;
+  padding: 15px 40px;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  color: #FFFFFF;
+}
+
+.cta-small-outlined {
+  background: transparent;
+  border: 1px solid #FE3346;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.cta-big-filled:hover,
+.cta-big-outlined:hover,
+.cta-small-filled:hover,
+.cta-small-outlined:hover {
+  background: #FF0D24;
+  color: #fff
+}
+
+.txt-cta {
+  font-family: circular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FE3346;
+  text-decoration: none;
+}
+.txt-cta:hover{
+  text-decoration: underline;
+}
